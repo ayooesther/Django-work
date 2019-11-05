@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2>ADD A NEW TEACHER</h2>
+	 <form method="POST">{% csrf_token %}
+	 	
+	 	{{form.as_p}}
+	 	<button type="submit">Add</button>
+	 </form>
+
+</body>
+</html>
+
